@@ -150,7 +150,7 @@ public class rsa
 
             if(DecryptedMessage.equals(password))
             {
-                for(int i = 1; i<=lineCount; i++)
+                for(int i = 1; i<lineCount; i++)
                 {
                     System.out.println(Files.readAllLines(p).get(i));
                 }
